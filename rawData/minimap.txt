@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CTuningFile>
+  <Tunables>
+    <Item type="CMiniMap__Tunables">
+      <Name>CMiniMap</Name>
+      <Sonar>
+        <fSoundRange_BarelyAudible value="1.00000000"/>
+        <fSoundRange_MostlyAudible value="1.80000000"/>
+        <fSoundRange_ClearlyAudible value="8.00000000"/>
+        <fSoundRange_Whisper value="10.00000000"/>
+        <fSoundRange_Talking value="15.00000000"/>
+        <fSoundRange_Shouting value="30.00000000"/>
+        <fSoundRange_Megaphone value="35.00000000"/>
+        <fSoundRange_FootstepBase value="20.00000000"/>
+        <fSoundRange_HeavyFootstep value="17.50000000"/>
+        <fSoundRange_FootstepFoliage value="10.00000000"/>
+        <fSoundRange_LandFromFall value="17.50000000"/>
+        <fSoundRange_WeaponSpinUp value="10.00000000"/>
+        <fSoundRange_Gunshot value="30.00000000"/>
+        <fSoundRange_SilencedGunshot value="10.00000000"/>
+        <fSoundRange_ProjectileLanding value="5.00000000"/>
+        <fSoundRange_Explosion value="50.00000000"/>
+        <fSoundRange_ObjectCollision value="10.00000000"/>
+        <fSoundRange_GlassBreak value="25.00000000"/>
+        <fSoundRange_CarHorn value="15.00000000"/>
+        <fSoundRange_CarLowSpeed value="10.00000000"/>
+        <fSoundRange_CarHighSpeed value="30.00000000"/>
+        <fSoundRange_WaterSplashSmall value="10.00000000"/>
+        <fSoundRange_WaterSplashLarge value="20.00000000"/>
+        <fMinListenerRangeToDrawSonarBlips value="50.00000000"/>
+        <fRainSnowSoundReductionAmount value="3.00000000"/>
+        <fRadioSoundReductionAmount value="3.00000000"/>
+        <fRadioSoundReductionDistance value="3.00000000"/>
+        <fConversationSoundReductionAmount value="3.00000000"/>
+        <fConversationSoundReductionDistance value="3.00000000"/>
+      </Sonar>
+      <HealthBar>
+        <fStaminaDepletionBlinkPercentage value="0.10000000"/>
+        <iHealthDepletionBlinkPercentage value="25"/>
+      </HealthBar>
+      <Bitmap>
+        <iBitmapTilesX value="6"/>
+        <iBitmapTilesY value="6"/>
+        <vBitmapTileSize x="4500.00000000" y="4500.00000000"/>
+        <vBitmapStart x="-13140.00000000" y="17400.00000000"/>
+        <bAlwaysDrawBitmap value="false"/>
+        <eBitmapForPause>MM_BITMAP_VERSION_SEA</eBitmapForPause>
+        <eBitmapForMinimap>MM_BITMAP_VERSION_MINIMAP</eBitmapForMinimap>
+      </Bitmap>
+      <FogOfWar>
+        <fWorldX value="-3447.00000000"/>
+        <fWorldY value="-7722.00000000"/>
+        <fWorldW value="7647.00000000"/>
+        <fWorldH value="11368.00000000"/>
+        <fBaseAlpha value="0.00000000"/>
+        <fTopAlpha value="1.00000000"/>
+        <fFowWaterHeight value="50.00000000"/>
+      </FogOfWar>
+      <Camera>
+        <fPauseMenuTilt value="800.00000000"/>
+        <fBitmapRequiredZoom value="800.00000000"/>
+        <fExteriorFootZoom value="83.00000000"/>
+        <fExteriorFootZoomRunning value="90.00000000"/>
+        <fExteriorFootZoomWanted value="60.00000000"/>
+        <fExteriorFootZoomWantedRunning value="45.00000000"/>
+        <fExteriorFootTilt value="0.00000000"/>
+        <fExteriorFootOffset value="30.00000000"/>
+        <fInteriorFootZoom value="500.00000000"/>
+        <fInteriorFootTilt value="0.00000000"/>
+        <fInteriorFootOffset value="30.00000000"/>
+        <fParachutingZoom value="72.00000000"/>
+        <fVehicleStaticZoom value="96.00000000"/>
+        <fVehicleStaticWantedZoom value="66.00000000"/>
+        <fVehicleMovingZoom value="48.00000000"/>
+        <fVehicleMovingWantedZoom value="48.00000000"/>
+        <fVehicleSpeedZoomScalar value="0.80000000"/>
+        <fVehicleTilt value="60.00000000"/>
+        <fVehicleOffset value="30.00000000"/>
+        <fAltimeterTilt value="60.00000000"/>
+        <fAltimeterOffset value="15.00000000"/>
+        <fBigmapTilt value="0.00000000"/>
+        <fBigmapOffset value="0.00000000"/>
+        <fRangeZoomedScalarStandard value="2.10000000"/>
+        <fRangeZoomedScalarPlane value="4.20000000"/>
+      </Camera>
+      <Tiles>
+        <vMiniMapWorldSize x="9400.00000000" y="12492.00000000"/>
+        <vMiniMapWorldStart x="-4500.00000000" y="8000.00000000"/>
+        <bDrawVectorSeaPaused value="false"/>
+        <bDrawVectorSeaMinimap value="true"/>
+      </Tiles>
+      <Overlay>
+        <vPos x="0.00000000" y="0.00000000"/>
+        <vScale x="100.00000000" y="100.00000000"/>
+        <fDisplayZ value="33.00000000"/>
+      </Overlay>
+      <Display>
+        <ScriptOverlayTime value="225"/>
+        <WantedOverlayTime value="500"/>
+        <MaskNormalAlpha value="0.70000000"/>
+        <MaskFlashAlpha value="0.70000000"/>
+      </Display>
+    </Item>
+  </Tunables>
+</CTuningFile>

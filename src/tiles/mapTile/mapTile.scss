@@ -1,0 +1,12 @@
+.mapTile {
+    z-index: 0;
+    display: inline-block;
+    user-select: none;
+    box-sizing: border-box;
+
+    img {
+        pointer-events:none;
+        width:100%;
+        margin-bottom: -4px;
+    }
+}
