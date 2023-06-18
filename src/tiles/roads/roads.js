@@ -243,7 +243,7 @@ function Roads(data) {
 		blipsElem.push(<Blip src={blip.src} coords={processCoords(blip.coords)} color={blip.color} size={blip.size}/>)
 	}
 
-	blipsElem.push(<Blip src="arrow" coords={processCoords(data.plyPos)} size={1}/>)
+	blipsElem.push(<Blip src="arrow" coords={processCoords(data.plyPos)} size={1.2}/>)
 
 
 	let roadTracksElem = []

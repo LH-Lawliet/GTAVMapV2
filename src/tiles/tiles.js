@@ -4,7 +4,8 @@ import './tiles.scss';
 import MapTile from "./mapTile/mapTile";
 import Roads from "./roads/roads";
 
-const seaColor = "#11AAD6";
+const seaColor = "#11AAD6EE";
+const seaColorTransparent = "#11AAD699";
 const minZoom = 0.5;
 const maxZoom = 4;
 const minimapZoomLevel = 3;
@@ -132,17 +133,20 @@ function Tiles() {
         backgroundColor: seaColor,
     }
 
+
     let height = 100;
 
     if (inMinimap) {
         height = 25
         style.bottom = `5vh`
+        style.backgroundColor = seaColorTransparent
         style.left = `5vh`
         style.height = `${height}vh`
         style.width = `${height}vh`
         style.borderRadius = "100%"
         style.transform = `rotate(${usedCenter["a"]}deg)`;
-        style.webkitMaskImage = "-webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 70%)";
+        style.opacity = "90%";
+        style.webkitMaskImage = "-webkit-radial-gradient(circle, rgba(0,0,0,1.0) 40%, rgba(0,0,0,0.997) 41%, rgba(0,0,0,0.989) 42%, rgba(0,0,0,0.975) 43%, rgba(0,0,0,0.956) 44%, rgba(0,0,0,0.933) 45%, rgba(0,0,0,0.904) 46%, rgba(0,0,0,0.871) 47%, rgba(0,0,0,0.834) 48%, rgba(0,0,0,0.793) 50%, rgba(0,0,0,0.749) 51%, rgba(0,0,0,0.703) 52%, rgba(0,0,0,0.654) 53%, rgba(0,0,0,0.603) 54%, rgba(0,0,0,0.552) 55%, rgba(0,0,0,0.499) 56%, rgba(0,0,0,0.447) 57%, rgba(0,0,0,0.396) 58%, rgba(0,0,0,0.345) 60%, rgba(0,0,0,0.296) 61%, rgba(0,0,0,0.249) 62%, rgba(0,0,0,0.206) 63%, rgba(0,0,0,0.165) 64%, rgba(0,0,0,0.128) 65%, rgba(0,0,0,0.095) 66%, rgba(0,0,0,0.066) 67%, rgba(0,0,0,0.043) 68%, rgba(0,0,0,0.0) 70%)"
     }
 
     return (
