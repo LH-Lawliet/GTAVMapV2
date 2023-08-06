@@ -3,7 +3,8 @@
     position: absolute;
     pointer-events:none;
     user-select: none;
-    border-radius: 1vh;
-    border: solid purple 0.5vh;
-    //box-sizing: border-box;
+    height: 0.5vh;
+    border: solid 2px purple;
+    border-radius: 2px;
+    transform-origin: left;
 }
